@@ -24,5 +24,5 @@ jobs:
       - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'visual-poet-app' # Replace with your App Service name
+          app-name: 'visual-poet' # Replace with your App Service name
           publish-profile: ${{ secrets.AZURE_CREDENTIALS }}
